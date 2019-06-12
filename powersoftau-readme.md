@@ -17,7 +17,7 @@ Get the source code of project sapling-mpc:
 git clone https://github.com/ebfull/powersoftau
 ```
 
-if you are running on macOS, Linux, or another Unix-like OS,download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
+if you are running on macOS, Linux, or another Unix-like OS(windows are not tested), download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
                                                             
 ```
 curl https://sh.rustup.rs -sSf | sh
