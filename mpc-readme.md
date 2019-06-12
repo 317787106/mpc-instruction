@@ -1,6 +1,6 @@
 # sapling-mpc
 
-This code can be used to participate and verify the result of MPC phase 2.
+This code can be used to participate PC phase 2 and verify the result.
 
 ## Instructions
 
