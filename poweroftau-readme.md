@@ -6,6 +6,8 @@ This protocol is described in a [forthcoming paper](https://eprint.iacr.org/2017
 
 This is MPC phase 1. In [MPC phase 2](mpc-readme.md) we will generate the left parameters.
 ## Instructions
+Contact **jiangyuanshu@tron.network** to schedule a time to participate. You'll need the latest (stable) [Rust compiler](https://www.rust-lang.org/) to participate using this code.
+
 Download and install IM tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. The TronFoundation's keybase account is `tron_brown`.
 If you have questions about this ceremony, contact with us via keybase directly.
 
