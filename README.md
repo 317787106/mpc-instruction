@@ -4,8 +4,9 @@ This is a [multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-p
 
 This protocol is described in a [forthcoming paper](https://eprint.iacr.org/2017/1050). It produces parameters for an adaptation of [Jens Groth's 2016 pairing-based proving system](https://eprint.iacr.org/2016/260) using the [BLS12-381](https://github.com/ebfull/pairing/tree/master/src/bls12_381) elliptic curve construction. The security proof relies on a randomness beacon being applied at the end of the ceremony.
 
+This is MPC phase 1. In next phase we will generate the left parameters.
 ## Instructions
-Download and install tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. 
+Download and install IM tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. The TronFoundation's keybase account is tron_brown.
 
 if you are running on macOS, Linux, or another Unix-like OS,download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
                                                             
