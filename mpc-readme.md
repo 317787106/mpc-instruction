@@ -6,15 +6,20 @@ This code can be used to participate and verify the result of MPC phase 2.
 
 Contact **jiangyuanshu@tron.network** to schedule a time to participate. You'll need the latest (stable) [Rust compiler](https://www.rust-lang.org/) to participate using this code.
 
-Download and install IM tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. The TronFoundation's keybase account is tron_brown.
+Download and install IM tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. The TronFoundation's keybase account is `tron_brown`.
 
+Get the source code of project sapling-mpc:
+
+```
+git clone https://github.com/zcash-hackworks/sapling-mpc
+```
 if you are running on macOS, Linux, or another Unix-like OS,download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
                                                             
 ```
 curl https://sh.rustup.rs -sSf | sh
 ```
 
-When it's your turn, you'll receive a `params` file from us. Place this file in the current directory and run:
+When it's your turn, you'll receive a `params` file from us. Place this file in the sapling-mpc directory and run:
 
 ```
 cargo run --release --bin compute

@@ -6,7 +6,14 @@ This protocol is described in a [forthcoming paper](https://eprint.iacr.org/2017
 
 This is MPC phase 1. In next phase we will generate the left parameters.
 ## Instructions
-Download and install IM tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. The TronFoundation's keybase account is tron_brown.
+Download and install IM tool [keybase](https://keybase.io/). if you don't have an account, create it first. you can use tool to send file back to tron foundation. The TronFoundation's keybase account is `tron_brown`.
+If you have questions about this ceremony, contact with us via keybase directly.
+
+Get the source code of project sapling-mpc:
+
+```
+git clone https://github.com/ebfull/powersoftau
+```
 
 if you are running on macOS, Linux, or another Unix-like OS,download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
                                                             
