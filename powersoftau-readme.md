@@ -28,7 +28,7 @@ git clone https://github.com/ebfull/powersoftau
 ```
 cargo run --release --bin compute
 ```
-You may be asked to input some random text in this process, and it could take an hour or so. When it's finished, it will place a `response` file in the current directory. That's what you send back with keybase. It will also print a hash of the `response` file it produced. You need to write this hash down (or post it publicly) so that you and others can confirm that your contribution exists in the final transcript of the ceremony.
+You may be asked to input some random text in this process, and it could take an hour or so. Memory usage is about 2.5 ~ 3 GB. When it's finished, it will place a `response` file in the current directory. That's what you send back with keybase. It will also print a hash of the `response` file it produced. You need to write this hash down (or post it publicly) so that you and others can confirm that your contribution exists in the final transcript of the ceremony.
 
 5.You are expected to send `response` file back to us via keybase. We will verify this file and generate the `new_challenge` file that can be used by next participant，and then will upload this file to aliyun cloud and publish response_hash on [github wiki]().
 
