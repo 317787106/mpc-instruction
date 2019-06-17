@@ -26,7 +26,7 @@ git clone https://github.com/zcash-hackworks/sapling-mpc
 cargo run --release --bin compute
 ```
 
-The process could take one to four hours according to your hardware, and then spit out a `new_params` file. The tool also prints a hash. This hash is what you and others can use to verify that your contribution actually ended up in the final parameters. 
+The process could take one to four hours according to your hardware, occupies 1.5 ~ 2GB of memory, and then spits out a `new_params` file. The tool also prints a hash. This hash is what you and others can use to verify that your contribution actually ended up in the final parameters. 
 
 5.You are encouraged to save this file `new_params` and upload it back to us with keybase. After we receive this `new_params` file, we will check its correctness and upload it to aliyun cloud if ok, so that next participant can use it. we will also publish the file link and hash on [github wiki]().
 
